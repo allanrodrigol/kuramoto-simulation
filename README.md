@@ -1,4 +1,4 @@
-# Kuramoto simulator
+# Kuramoto simulation
 
 This project is a Java-based implementation of a mathematical synchronization model known as **Kuramoto Model**.
 
