@@ -13,9 +13,8 @@ Kuramoto model exhibits the emergence of collective behavior in a coupled phase 
 Formally, the Kuramoto model consists of a population of $N$ globally coupled phase oscillators. Each oscillator $i$ has an individual phase $\theta_i$ and a natural frequency $\omega_i$. The Kuramoto model captures the emergence of the collective behavior in coupled oscillator network by gradual adjustments of the rhythms (frequencies) of the oscillators toward a mean-field represented by $\Omega$ [1]. These adjustments occur iteratively when oscillators receive new pulses from neighboring oscillators through sinusoidal couplings.
 
 The collective dynamics of the oscillator network make the phases become more similar over time, governed by following equation [3]\:
-$$
-\frac{d\theta_i}{d_t} = \omega_i + \frac{K}{N} \sum_{j=1}^{N} \sin(\theta_j - \theta_i),
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{d\theta_i}{d_t} = \omega_i + \frac{K}{N} \sum_{j=1}^{N} \sin(\theta_j - \theta_i)">
 
 where $K$ is the global coupling strength and $N$ is the number of oscillators in the network. The frequencies $\omega_i$ are usually represented by some distribution function $g(\omega)$. When the frequency distribution is too dissimilar with respect to the coupling strength, the oscillators are unable to synchronize their phases and hence the system behaves incoherently over time. Therefore, a coupled oscillator network is able to reach a phase-synchronized state if there exists a coupling strength $K$ enough regarding the heterogeneity of the natural frequencies of the oscillators.
 
