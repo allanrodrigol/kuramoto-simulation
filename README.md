@@ -24,7 +24,7 @@ Synchronization can also be represented in a more convenient way from the follow
 
 <img src="https://render.githubusercontent.com/render/math?math=r e^{i\psi} = \frac{1}{N}\sum_{j=1}^{N}e^{i\theta_{j}}">,
 
-where $0 \leq r(t) \leq 1$ measures the coherence level among all oscillators and $\psi(t)$ is the average phase of the system. The values $r(t) \approx 0$ and $r(t) \approx 1$ indicate absence of synchronization and the system being in a phase-synchronized state, respectively.
+where <img src="https://render.githubusercontent.com/render/math?math=0 \leq r(t) \leq 1"> measures the coherence level among all oscillators and <img src="https://render.githubusercontent.com/render/math?math=\psi(t)"> is the average phase of the system. The values <img src="https://render.githubusercontent.com/render/math?math=r(t) \approx 0"> and <img src="https://render.githubusercontent.com/render/math?math=r(t) \approx 1"> indicate absence of synchronization and the system being in a phase-synchronized state, respectively.
 
 ## Build
 
