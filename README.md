@@ -10,21 +10,19 @@ Kuramoto model exhibits the emergence of collective behavior in a coupled phase 
 
 ## Kuramoto model
 
-Formally, the Kuramoto model consists of a population of $N$ globally coupled phase oscillators. Each oscillator $i$ has an individual phase $\theta_i$ and a natural frequency $\omega_i$. The Kuramoto model captures the emergence of the collective behavior in coupled oscillator network by gradual adjustments of the rhythms (frequencies) of the oscillators toward a mean-field represented by $\Omega$ [1]. These adjustments occur iteratively when oscillators receive new pulses from neighboring oscillators through sinusoidal couplings.
+Formally, the Kuramoto model consists of a population of *N* globally coupled phase oscillators. Each oscillator *i* has an individual phase <img src="https://render.githubusercontent.com/render/math?math=\theta_i"> and a natural frequency <img src="https://render.githubusercontent.com/render/math?math=\omega_i">. The Kuramoto model captures the emergence of the collective behavior in coupled oscillator network by gradual adjustments of the rhythms (frequencies) of the oscillators toward a mean-field represented by <img src="https://render.githubusercontent.com/render/math?math=\Omega"> [1]. These adjustments occur iteratively when oscillators receive new pulses from neighboring oscillators through sinusoidal couplings.
 
 The collective dynamics of the oscillator network make the phases become more similar over time, governed by following equation [3]\:
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{d\theta_i}{d_t} = \omega_i + \frac{K}{N} \sum_{j=1}^{N} \sin(\theta_j - \theta_i)">
 
-where $K$ is the global coupling strength and $N$ is the number of oscillators in the network. The frequencies $\omega_i$ are usually represented by some distribution function $g(\omega)$. When the frequency distribution is too dissimilar with respect to the coupling strength, the oscillators are unable to synchronize their phases and hence the system behaves incoherently over time. Therefore, a coupled oscillator network is able to reach a phase-synchronized state if there exists a coupling strength $K$ enough regarding the heterogeneity of the natural frequencies of the oscillators.
+where *K* is the global coupling strength and $N$ is the number of oscillators in the network. The frequencies <img src="https://render.githubusercontent.com/render/math?math=\omega_i"> are usually represented by some distribution function <img src="https://render.githubusercontent.com/render/math?math=g(\omega)">. When the frequency distribution is too dissimilar with respect to the coupling strength, the oscillators are unable to synchronize their phases and hence the system behaves incoherently over time. Therefore, a coupled oscillator network is able to reach a phase-synchronized state if there exists a coupling strength *K* enough regarding the heterogeneity of the natural frequencies of the oscillators.
 
 ## Order parameter
 
 Synchronization can also be represented in a more convenient way from the following complex-valued order parameter, according to equation below [2]:
 
-$$
-r e^{i\psi} = \frac{1}{N}\sum_{j=1}^{N}e^{i\theta_{j}},
-$$
+<img src="https://render.githubusercontent.com/render/math?math=r e^{i\psi} = \frac{1}{N}\sum_{j=1}^{N}e^{i\theta_{j}}">,
 
 where $0 \leq r(t) \leq 1$ measures the coherence level among all oscillators and $\psi(t)$ is the average phase of the system. The values $r(t) \approx 0$ and $r(t) \approx 1$ indicate absence of synchronization and the system being in a phase-synchronized state, respectively.
 
