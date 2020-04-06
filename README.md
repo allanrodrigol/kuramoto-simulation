@@ -6,7 +6,7 @@ This project is a Java-based implementation of a mathematical synchronization mo
 
 Synchronization is a research areas of nonlinear dynamical systems, which aims to understand the trends of synchronously operating systems. One of the most successful attempts to understand and reproduce the synchronization phenomenon is known as the Kuramoto model [1]. 
 
-Kuramoto model exhibits the emergence of collective behavior in a coupled phase oscillator network. An oscillator is a device that autonomously produces repeated signals. In particular, phase oscillators have constant amplitudes, in which each phase value represents the state of an oscillator at a given time. The space-state of an oscillator can be defined by a circular interval <img src="https://render.githubusercontent.com/render/math?math=[0,2\pi]">, where <img src="https://render.githubusercontent.com/render/math?math=0 = 2\pi">. Each oscillator emits a pulse to its neighboring oscillators whenever its phase reaches a certain threshold [2].
+Kuramoto model exhibits the emergence of collective behavior in a coupled phase oscillator network. An oscillator is a device that autonomously produces repeated signals. In particular, phase oscillators have constant amplitudes, in which each phase value represents the state of an oscillator at a given time. The space-state of an oscillator can be defined by a circular interval [<img src="https://render.githubusercontent.com/render/math?math=0,2\pi">], where <img src="https://render.githubusercontent.com/render/math?math=0 = 2\pi">. Each oscillator emits a pulse to its neighboring oscillators whenever its phase reaches a certain threshold [2].
 
 ## Kuramoto model
 
