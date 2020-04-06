@@ -16,7 +16,7 @@ The collective dynamics of the oscillator network make the phases become more si
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{d\theta_i}{d_t} = \omega_i + \frac{K}{N} \sum_{j=1}^{N} \sin(\theta_j - \theta_i)">
 
-where *K* is the global coupling strength and $N$ is the number of oscillators in the network. The frequencies <img src="https://render.githubusercontent.com/render/math?math=\omega_i"> are usually represented by some distribution function <img src="https://render.githubusercontent.com/render/math?math=g(\omega)">. When the frequency distribution is too dissimilar with respect to the coupling strength, the oscillators are unable to synchronize their phases and hence the system behaves incoherently over time. Therefore, a coupled oscillator network is able to reach a phase-synchronized state if there exists a coupling strength *K* enough regarding the heterogeneity of the natural frequencies of the oscillators.
+where *K* is the global coupling strength and *N* is the number of oscillators in the network. The frequencies <img src="https://render.githubusercontent.com/render/math?math=\omega_i"> are usually represented by some distribution function <img src="https://render.githubusercontent.com/render/math?math=g(\omega)">. When the frequency distribution is too dissimilar with respect to the coupling strength, the oscillators are unable to synchronize their phases and hence the system behaves incoherently over time. Therefore, a coupled oscillator network is able to reach a phase-synchronized state if there exists a coupling strength *K* enough regarding the heterogeneity of the natural frequencies of the oscillators.
 
 ## Order parameter
 
