@@ -34,7 +34,7 @@ This project and uses [Apache Maven](https://maven.apache.org/) builder and requ
 
 This is a [Java Swing](https://en.wikipedia.org/wiki/Swing_\(Java\)) application. Run `Main` class for starting the application. This application shows the synchronization dynamics in a coupled oscillator network, focusing on the coupling strength dominance over the natural frequencies. First you need to configure a complex oscillator network with homogeneous coupling strength. 
 
-After starting, each oscillator rotates around the same path without colliding. Each oscillator has a phase angle $\theta_i$ and a preferred natural rotation frequency $\omega_i$ representing the rotation speed. The movements of coupled oscillators are influenced by all of them, when the coupling strength is sufficient for interfering in the frequency $\omega_i$ of each oscillator.
+After starting each oscillator rotates around the same path without colliding. Each oscillator has a phase angle <img src="https://render.githubusercontent.com/render/math?math=\theta_i"> and a preferred natural rotation frequency <img src="https://render.githubusercontent.com/render/math?math=\omega_i"> representing the rotation speed. The movements of coupled oscillators are influenced by all of them, when the coupling strength is sufficient for interfering in the frequency <img src="https://render.githubusercontent.com/render/math?math=\omega_i"> of each oscillator.
 
 
 ## References
